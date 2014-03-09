@@ -38,4 +38,3 @@ verbatimtex
 \end{document}
 etex
 end
-

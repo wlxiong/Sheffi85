@@ -4,6 +4,7 @@ verbatimtex
 \documentclass{article}
 \usepackage{ctex}
 \begin{document}
+\begin{CJK*}{UTF8}{gbsn}
 etex
 %%%%%%%%%%
 u = 0.5cm;
@@ -27,14 +28,15 @@ fill less scaled u withcolor .7white;
 fill more scaled u withcolor .5white;
 draw (upline cutafter demand) scaled u;
 draw (downline cutafter supply) scaled u;
-dotlabel.rt(btex Æ½ºâµã etex, s scaled u);
-label.bot(btex ÈËÊý etex,(9u,0));
-label.lft(btex ÖÐ½±ÂÊ etex,(0,6u));
-label.rt(btex ÐèÇóÇúÏß etex,(8u,5u));
-label.urt(btex Ð§ÄÜÇúÏß etex,(8u,.5u));
+dotlabel.rt(btex å¹³è¡¡ç‚¹ etex, s scaled u);
+label.bot(btex äººæ•° etex,(9u,0));
+label.lft(btex ä¸­å¥–çŽ‡ etex,(0,6u));
+label.rt(btex éœ€æ±‚æ›²çº¿ etex,(8u,5u));
+label.urt(btex æ•ˆèƒ½æ›²çº¿ etex,(8u,.5u));
 endfig;
 %%%%%%%%%%
 verbatimtex
+\end{CJK*}
 \end{document}
 etex
 end

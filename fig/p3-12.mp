@@ -5,6 +5,7 @@ verbatimtex
 \documentclass{article}
 \usepackage{ctex}
 \begin{document}
+\begin{CJK*}{UTF8}{gbsn}
 etex
 %%%%%%%%%%
 beginfig(0);
@@ -15,11 +16,12 @@ drawboxed(n1,n2);
 %drawarrow n2.e--n3.w;
 %drawarrow n1.e{dir 30}..n2.w;
 %drawarrow n1.e{dir -30}..n2.w;
-label.top(btex 1 快速路 etex, cuta(n1,n2) n1.c{dir 30}..n2.c);
-label.top(btex 2 城市道路 etex, cutd(n1,n2) n1.c{dir -30}..n2.c);
+label.top(btex 1 蹇�熻矾 etex, cuta(n1,n2) n1.c{dir 30}..n2.c);
+label.top(btex 2 鍩庡競閬撹矾 etex, cutd(n1,n2) n1.c{dir -30}..n2.c);
 endfig;
 %%%%%%%%%%
 verbatimtex
+\end{CJK*}
 \end{document}
 etex
 end
